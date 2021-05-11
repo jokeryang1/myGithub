@@ -26,7 +26,7 @@ public class ExceptTransactionalAop {
             return proceed;
         } catch (Throwable throwable) {
 //            throwable.printStackTrace();
-            System.out.printf("jajian");
+            System.out.printf("bbkb");
             return new CommonResult(500, "错误错误");
         }
     }
